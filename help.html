@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="style.css" rel="stylesheet">
+	<title>FAQ</title>
+</head>
+<body>
+<h1>База знаний</h1>
+<p class="info">Здесь мы собрали самые частые вопросы о том, как работает Конструктор опросов. 
+Если не найдете то, что искали, напишите на <a href="#">q@hh.ru</a> или в телеграм <a href="#">@...</a>. 
+Мы ответим как можно быстрее.</p>
+<!--Ссылка:/-->
+
+<div class="main">
+	<div class="navBlock">
+		<button class="registration"><a><img src="img/reg_icon.svg">Регистрация и вход в систему</a></button>
+		<button class="access"><a><img src="img/access_icon.svg">Видимость и доступы</a></button>	
+		<button class="startWork"><a><img src="img/start_work_icon.svg">Начало работы</a></button>
+	</div>
+	<div class="FAQBlock">
+		<div class="FAQ_registration">
+			<div class="FAQ_item">
+				<div>
+					<h2>Как войти в Конструктор?</h2>
+					<button onclick="hideFAQblock(this)" id="&answer=kak-vojti-v-konstruktor"><img class="arrow" src="img/arr_down.svg" width="24" height="24"></button>
+				</div>
+				<p class="answer">Зайдите на q.hh.ru и нажмите «Создать опрос». Для регистрации вам потребуются та же почта и пароль, 
+				которыми вы пользуетесь для входа в кабинет работодателя на hh.ru. Если в момент входа вы авторизованы 
+				на hh.ru как работодатель, все еще проще: подтвердите свои данные — и вы в системе. Важно: почта и пароль от 
+				кабинета соискателя для входа не подойдут.</p>
+				<!--Ссылка: -->
+			</div>
+			<div class="FAQ_item">
+				<div>
+					<h2>Как сделать так, чтобы мои коллеги тоже могли работать с Конструктором?</h2>
+					<button onclick="hideFAQblock(this)"  id="&answer=kak-sdelat-tak-chtoby-moi-kollegi-tozhe-mogli-rabotat-s-konstruktorom"><img class="arrow" src="img/arr_down.svg"></button>
+				</div>
+				<p class="answer">Им понадобится почта и пароль, которые они используют для входа в кабинет работодателя на hh.ru. Если коллега 
+				не занимается подбором на hh.ru, допустим, это специалист по обучению или менеджер по орг. культуре, напишите на q@hh.ru.
+				Совместная работа над одним и тем же опросом возможна при условии предоставления доступа к опросу владельцем. 
+				При этом пользователь, которому предоставляется доступ, должен быть авторизирован в q.hh.ru и быть сотрудником 
+				вашей компании. Предоставлять доступ к опросам сотрудникам других компаний невозможно.</p>
+				<!--Ссылка: /?-->
+			</div>
+		</div>
+		<div class="FAQ_access hidden">
+			<div class="FAQ_item">
+				<div>
+					<h2>Могут ли коллеги видеть мои опросы и опросы друг друга?</h2>
+					<button onclick="hideFAQblock(this)"><img class="arrow" src="img/arr_down.svg"></button>
+				</div>
+				<p class="answer">Все зависит от роли в системе. Их две: пользователь и администратор. Если вы пользователь, доступ к вашим опросам 
+				есть у администратора, при этом другие пользователи ваши опросы видеть не могут. Если вы администратор, доступа к вашим 
+				опросам нет ни у кого, кроме вас. Узнать вашу роль в системе можно в личном кабинете, вкладка «Команда». 
+				Обращаем ваше внимание, что первый авторизовавшийся пользователь по умолчанию становится администратором сервиса, 
+				все последующие - пользователями. Если вы хотели бы изменить роли, пожалуйста, напишите на q@hh.ru.</p>
+				<!--Ссылка: /?section=access&answer=mogut-li-kollegi-videt-moi-oprosy-i-oprosy-drug-druga-->
+			</div>
+			<div class="FAQ_item">
+				<div>
+					<h2>Как предоставить доступ к моему опросу коллеге?</h2>
+					<button onclick="hideFAQblock(this)"><img class="arrow" src="img/arr_down.svg"></button>
+				</div>
+				<p class="answer">Если вы хотите вместе редактировать опрос или смотреть результаты, поделиться доступом можно на странице опросов: 
+				выберите нужный опрос, нажмите «+» и добавьте email коллеги. Если вы хотите показать опрос руководителю, лучше
+				 воспользоваться тестовой ссылкой: по ней опрос будет выглядеть ровно так, как его увидят сотрудники.</p>
+				<!--Ссылка: /?section=access&answer=kak-predostavit-dostup-k-moemu-oprosu-kollege-->
+			</div>
+		</div>
+		<div class="FAQ_startWork hidden">
+			<div class="FAQ_item">
+				<div>
+					<h2>Как начать работу с Конструктором?</h2>
+					<button onclick="hideFAQblock(this)"><img class="arrow" src="img/arr_down.svg" width="24" height="24"></button>
+				</div>
+				<p class="answer">Войдите в систему, нажав «Создать опрос» на q.hh.ru. Процесс создания опроса разбит на простые шаги — следуйте им, 
+				и все получится с первого раза. Если вы предпочитаете сначала почитать инструкцию, кликните на «?» в главном меню. 
+				Появится «Справочник» с подробными текстовыми и видеоматериалами по каждому этапу работы с системой.</p>
+				<!--Ссылка: /?section=start_work&answer=kak-nachat-rabotu-s-konstruktorom-->
+			</div>
+			<div class="FAQ_item">
+				<div>
+					<h2>Как побыстрее освоить Конструктор?</h2>
+					<button onclick="hideFAQblock(this)"><img class="arrow" src="img/arr_down.svg" width="24" height="24"></button>
+				</div>
+				<p class="answer">Вы можете сделать это самостоятельно по материалам в разделе «Обучение по системе». Этот раздел находится на 
+				странице создания опроса — щелкните на «?» в правом верхнем углу.
+				Если же вам нужно освоить функционал максимально быстро и заодно обучить коллег, советуем заказать бесплатный
+				 персональный тур по системе в формате видеоконференции. Мы покажем все, на что способен Конструктор, и поможем 
+				 настроить его под ваши задачи.</p>
+				<!--Ссылка: /?section=start_work&answer=kak-pobystree-osvoit-konstruktor-->
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="scripts.js"></script>
+</body>
+</html>

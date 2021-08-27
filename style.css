@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    padding: 62px 75px;
+    font-family: "Arial", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0;
+    
+    font-family: "Proxima Nova Condensed", sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 38px;
+    color: #111;
+}
+
+h2 {
+    margin: 0;
+    width: 720px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
+body p:first-of-type {
+    font-size: 14px;
+    line-height: 20px;
+    width: 741px;
+}
+
+.main {
+    margin-top: 79px;
+    display: flex;
+}
+
+.navBlock button {
+    min-width: 320px;
+    background: #fff;
+    font-size: 16px;
+    
+    cursor: pointer;
+
+    border: 0px;
+    border-radius: 3px;
+    
+    box-sizing: padding-box;
+
+    margin-bottom: 11px;
+    padding-top: 10px;
+    padding-right: 9px;
+    padding-left: 9px;
+
+    text-align: start;
+
+}
+
+.navBlock button img {
+    margin-right: 18px;
+    vertical-align: middle;
+}
+
+.navBlock button:hover {
+    color: #e8178a;
+
+}
+
+.navBlock button:active {
+    color: #e8178a;
+    background: #FFF1F9;
+;
+}
+
+.FAQ_item {
+    border-bottom: 2px solid #d6e3ff;
+    margin-bottom: 24px;
+}
+
+.FAQ_item div {
+    display: flex;
+    justify-content: space-between;
+    height: 24px;
+    margin-bottom: 24px;
+}
+.FAQ_item div button {
+    border: 0;
+    padding: 0;
+    background: none;
+    
+    cursor: pointer;
+}
+
+.FAQ_item p {
+    margin-right: 0;
+    line-height: 20px;
+
+}
+
+.answer {
+    display: none;
+}
+
+.FAQ_item.visible .answer {
+    display: block;
+}
+
+.FAQ_item.visible .arrow {
+    transform: rotate(180deg);
+}
+
+.hidden {
+    display: none;
+}
+/* Fonts ----------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------*/
+
+
+@font-face {
+    font-family: "Proxima Nova Condensed";
+    src: url('font/PNC/ProximaNovaCond-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Proxima Nova Condensed";
+    src: url('font/PNC/ProximaNovaCond-BoldIt.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Proxima Nova Condensed";
+    src: url('font/PNC/ProximaNovaCond-SemiboldIt.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Proxima Nova Condensed";
+    src: url('font/PNC/ProximaNovaCond-ThinIt.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Proxima Nova Condensed";
+    src: url('font/PNC/ProximaNovaCond-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Proxima Nova Condensed";
+    src: url('font/PNC/ProximaNovaCond-RegularIt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Proxima Nova Condensed";
+    src: url('font/PNC/ProximaNovaCond-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Proxima Nova Condensed";
+    src: url('font/PNC/ProximaNovaCond-ExtrabldIt.ttf') format('truetype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Proxima Nova Condensed";
+    src: url('font/PNC/ProximaNovaCond-Extrabld.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Proxima Nova Condensed";
+    src: url('font/PNC/ProximaNovaCond-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Proxima Nova Condensed";
+    src: url('font/PNC/ProximaNovaCond-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Proxima Nova Condensed";
+    src: url('font/PNC/ProximaNovaCond-LightIt.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Proxima Nova Condensed";
+    src: url('font/PNC/ProximaNovaCond-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Proxima Nova Condensed";
+    src: url('font/PNC/ProximaNovaCond-BlackIt.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+
+
+
+
